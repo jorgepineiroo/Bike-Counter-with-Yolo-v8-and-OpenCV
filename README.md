@@ -227,9 +227,6 @@ As we can see, the program performs quite well even if the lighting conditions a
 ### References:
 
 - [YOLOv8 by Ultralytics](https://github.com/ultralytics/ultralytics)
-- [OpenCV Documentation](https://docs.opencv.org/)
-- [Google Colab](https://colab.research.google.com/)
 - [Roboflow](https://roboflow.com/)
-- [Kaggle Datasets](https://www.kaggle.com/datasets)
 - [Intersection over Union (IoU) Explained](https://www.pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/)
-- [Data Augmentation Techniques](https://towardsdatascience.com/data-augmentation-techniques-in-python-416f5e014d2e)
+- [Real-time Object Detection with YOLO and Webcam](https://dipankarmedh1.medium.com/real-time-object-detection-with-yolo-and-webcam-enhancing-your-computer-vision-skills-861b97c78993)
