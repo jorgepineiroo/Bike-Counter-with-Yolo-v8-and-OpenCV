@@ -10,8 +10,8 @@ After some research, I decided to use the `Ultralytics Yolo` algorithm, which is
 First, I decided to train a model using public datasets from Kaggle. However, the results weren't very good - while it detected bicycles, it got confused when people were riding them, often detecting one bicycle per wheel, as shown in these images:
 
 <div style="display: flex; justify-content: space-between;">
-    <img src="media/error1.png" style="width: 400;">
-    <img src="media/error2.png" style="width: 400;">
+    <img src="media/error1.png" style="width: 300;">
+    <img src="media/error2.png" style="width: 300;">
 </div>
 
 I ran several tests changing training parameters like epochs or batch size, but the problem persisted. So, I decided to create and label my own dataset for better results.
