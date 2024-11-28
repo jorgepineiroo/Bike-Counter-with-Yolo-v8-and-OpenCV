@@ -10,8 +10,8 @@ After some research, I decided to use the `Ultralytics Yolo` algorithm, which is
 First, I decided to train a model using public datasets from Kaggle. However, the results weren't very good - while it detected bicycles, it got confused when people were riding them, often detecting one bicycle per wheel, as shown in these images:
 
 <div style="display: flex; justify-content: space-between;">
-    <img src="error1.jpg" style="width: 500;">
-    <img src="error2.jpg" style="width: 500;">
+    <img src="error1.png" style="width: 500;">
+    <img src="error2.png" style="width: 500;">
 </div>
 
 I ran several tests changing training parameters like epochs or batch size, but the problem persisted. So, I decided to create and label my own dataset for better results.
@@ -23,20 +23,20 @@ Additionally, for higher quality photos, I went out with my camera through Valen
 Finally, I gathered 353 photos. Using Roboflow, I labeled them by marking rectangles around the bicycles.
 
 <div style="display: flex; justify-content: space-between;">
-    <img src="dataset1.jpg" style="width: 500;">
-    <img src="dataset2.jpg" style="width: 500;">
+    <img src="dataset1.png" style="width: 500;">
+    <img src="dataset2.png" style="width: 500;">
 </div>
 
 Furthermore, using Roboflow, I applied data augmentation to my dataset, effectively tripling the data by applying transformations like rotations, scaling, changes in saturation and exposure...
 
-<img src="dataset_aug.jpg" style="width: 600;">
+<img src="dataset_aug.png" style="width: 600;">
 
 I then divided the images into 3 groups:
 - Training images (train): used exclusively for model training
 - Validation images (validation): used to prevent overfitting and adjust hyperparameters
 - Test images (test): used to evaluate model performance after training
 
-<img src="dataset_dist.jpg" style="width: 600;">
+<img src="dataset_dist.png" style="width: 600;">
 
 After completing my dataset, I could download it in a format suitable for YOLOv8, with folders containing the divided images and labels in .txt format with information about bicycle bounding boxes.
 
@@ -209,19 +209,19 @@ As we can see, the program performs quite well even if the lighting conditions a
 
 - Video 1:
 
-<img src="result1.jpg" style="width: 600;">
+<img src="result1.png" style="width: 600;">
 
 - Video 2:
 
-<img src="result2.jpg" style="width: 600;">
+<img src="result2.png" style="width: 600;">
 
 - Video 3:
 
-<img src="result3" style="width: 600;">
+<img src="result3.png" style="width: 600;">
 
 - Video 4:
 
-<img src="result4" style="width: 600;">
+<img src="result4.png" style="width: 600;">
 
 
 ### References:
