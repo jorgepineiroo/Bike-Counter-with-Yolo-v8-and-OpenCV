@@ -29,7 +29,7 @@ Finally, I gathered 353 photos. Using Roboflow, I labeled them by marking rectan
 
 Furthermore, using Roboflow, I applied data augmentation to my dataset, effectively tripling the data by applying transformations like rotations, scaling, changes in saturation and exposure...
 
-<img src="media/dataset_aug.png" style="width: 600;">
+<img src="media/data_aug.png" style="width: 600;">
 
 I then divided the images into 3 groups:
 - Training images (train): used exclusively for model training
